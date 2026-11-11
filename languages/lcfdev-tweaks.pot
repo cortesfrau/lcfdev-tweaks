@@ -1,0 +1,119 @@
+# Copyright (C) 2026 Lluis Cortes
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Tweaks 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/lcfdev-tweaks\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-11-11T11:31:15+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: lcfdev-tweaks\n"
+
+#. Plugin Name of the plugin
+#: lcfdev-tweaks.php
+#: src/Admin/SettingsPage.php:37
+#: src/Admin/SettingsPage.php:38
+#: src/Admin/SettingsPage.php:153
+msgid "Tweaks"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: lcfdev-tweaks.php
+msgid "https://github.com/cortesfrau/lcfdev-tweaks"
+msgstr ""
+
+#. Description of the plugin
+#: lcfdev-tweaks.php
+msgid "A lightweight plugin to disable WordPress features your site does not need, improving performance and hardening security through configurable settings."
+msgstr ""
+
+#. Author of the plugin
+#: lcfdev-tweaks.php
+msgid "Lluis Cortes"
+msgstr ""
+
+#. Author URI of the plugin
+#: lcfdev-tweaks.php
+msgid "https://github.com/cortesfrau"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:113
+msgid "Off"
+msgstr ""
+
+#: src/Enums/Scope.php:21
+msgid "Everywhere"
+msgstr ""
+
+#: src/Enums/Scope.php:22
+msgid "All visitors"
+msgstr ""
+
+#: src/Enums/Scope.php:23
+msgid "Visitors who are not logged in"
+msgstr ""
+
+#: src/Enums/TweakCategory.php:16
+msgid "Cleanup"
+msgstr ""
+
+#: src/Enums/TweakCategory.php:17
+msgid "Performance"
+msgstr ""
+
+#: src/Enums/TweakCategory.php:18
+msgid "Security"
+msgstr ""
+
+#: src/Tweaks/Performance/DashiconsDisabler.php:21
+msgid "Disable Dashicons"
+msgstr ""
+
+#: src/Tweaks/Performance/DashiconsDisabler.php:31
+msgid "Stops loading the Dashicons stylesheet on the frontend unless something depends on it, such as the admin bar."
+msgstr ""
+
+#: src/Tweaks/Performance/EmojiDisabler.php:21
+msgid "Disable Emojis"
+msgstr ""
+
+#: src/Tweaks/Performance/EmojiDisabler.php:31
+msgid "Stops loading the emoji script and styles on the frontend and keeps emojis as plain text in feeds."
+msgstr ""
+
+#: src/Tweaks/Security/GenericLoginErrors.php:25
+msgid "Generic login errors"
+msgstr ""
+
+#: src/Tweaks/Security/GenericLoginErrors.php:35
+msgid "The login form shows the same error whether the username exists or not, and the lost password form never says that an account does not exist."
+msgstr ""
+
+#: src/Tweaks/Security/GenericLoginErrors.php:64
+msgid "<strong>Error:</strong> The username or password you entered is incorrect."
+msgstr ""
+
+#: src/Tweaks/Security/UserEnumerationBlocker.php:25
+msgid "Block user enumeration"
+msgstr ""
+
+#: src/Tweaks/Security/UserEnumerationBlocker.php:35
+msgid "Hides usernames from visitors who are not logged in: ?author=N returns a 404, the REST users endpoint requires login, the users sitemap is removed and the oEmbed author link points to the home page. Author archives are not affected."
+msgstr ""
+
+#: src/Tweaks/Security/UserEnumerationBlocker.php:77
+msgid "Sorry, you are not allowed to list users."
+msgstr ""
+
+#: src/Tweaks/Security/XmlRpcDisabler.php:21
+msgid "Disable XML-RPC"
+msgstr ""
+
+#: src/Tweaks/Security/XmlRpcDisabler.php:31
+msgid "Removes every XML-RPC method, pingbacks included, and the X-Pingback header. Jetpack and some older apps need XML-RPC."
+msgstr ""

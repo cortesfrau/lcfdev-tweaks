@@ -1,0 +1,119 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Tweaks 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/lcfdev-tweaks\n"
+"Last-Translator: Lluis Cortes\n"
+"Language-Team: Spanish (Spain)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-11-11T10:22:22+00:00\n"
+"PO-Revision-Date: 2026-11-11 00:00+0000\n"
+"Language: es_ES\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: lcfdev-tweaks\n"
+
+#. Plugin URI of the plugin
+#: lcfdev-tweaks.php
+msgid "https://github.com/cortesfrau/lcfdev-tweaks"
+msgstr "https://github.com/cortesfrau/lcfdev-tweaks"
+
+#. Author of the plugin
+#: lcfdev-tweaks.php
+msgid "Lluis Cortes"
+msgstr "Lluis Cortes"
+
+#. Author URI of the plugin
+#: lcfdev-tweaks.php
+msgid "https://github.com/cortesfrau"
+msgstr "https://github.com/cortesfrau"
+
+#. Plugin Name of the plugin
+#: lcfdev-tweaks.php
+#: src/Admin/SettingsPage.php:37
+#: src/Admin/SettingsPage.php:38
+#: src/Admin/SettingsPage.php:153
+msgid "Tweaks"
+msgstr "Tweaks"
+
+#: src/Admin/SettingsPage.php:113
+msgid "Off"
+msgstr "Desactivado"
+
+#: src/Enums/Scope.php:21
+msgid "Everywhere"
+msgstr "En todas partes"
+
+#: src/Enums/Scope.php:22
+msgid "All visitors"
+msgstr "Todos los visitantes"
+
+#: src/Enums/Scope.php:23
+msgid "Visitors who are not logged in"
+msgstr "Visitantes sin sesión iniciada"
+
+#: src/Enums/TweakCategory.php:16
+msgid "Cleanup"
+msgstr "Limpieza"
+
+#: src/Enums/TweakCategory.php:17
+msgid "Performance"
+msgstr "Rendimiento"
+
+#: src/Enums/TweakCategory.php:18
+msgid "Security"
+msgstr "Seguridad"
+
+#: src/Tweaks/Performance/DashiconsDisabler.php:21
+msgid "Disable Dashicons"
+msgstr "Desactivar Dashicons"
+
+#: src/Tweaks/Performance/DashiconsDisabler.php:31
+msgid "Stops loading the Dashicons stylesheet on the frontend unless something depends on it, such as the admin bar."
+msgstr "Deja de cargar la hoja de estilos de Dashicons en el frontend, salvo que algo dependa de ella, como la barra de administración."
+
+#: src/Tweaks/Performance/EmojiDisabler.php:21
+msgid "Disable Emojis"
+msgstr "Desactivar emojis"
+
+#: src/Tweaks/Security/GenericLoginErrors.php:25
+msgid "Generic login errors"
+msgstr "Errores de acceso genéricos"
+
+#: src/Tweaks/Security/GenericLoginErrors.php:35
+msgid "The login form shows the same error whether the username exists or not, and the lost password form never says that an account does not exist."
+msgstr "El formulario de acceso muestra el mismo error tanto si el usuario existe como si no, y el formulario de contraseña olvidada nunca indica que una cuenta no existe."
+
+#: src/Tweaks/Security/GenericLoginErrors.php:64
+msgid "<strong>Error:</strong> The username or password you entered is incorrect."
+msgstr "<strong>Error:</strong> El nombre de usuario o la contraseña que has introducido no son correctos."
+
+#: src/Tweaks/Security/UserEnumerationBlocker.php:25
+msgid "Block user enumeration"
+msgstr "Bloquear la enumeración de usuarios"
+
+#: src/Tweaks/Security/UserEnumerationBlocker.php:77
+msgid "Sorry, you are not allowed to list users."
+msgstr "Lo siento, no tienes permisos para ver la lista de usuarios."
+
+#: src/Tweaks/Security/XmlRpcDisabler.php:21
+msgid "Disable XML-RPC"
+msgstr "Desactivar XML-RPC"
+
+#: src/Tweaks/Security/XmlRpcDisabler.php:31
+msgid "Removes every XML-RPC method, pingbacks included, and the X-Pingback header. Jetpack and some older apps need XML-RPC."
+msgstr "Elimina todos los métodos de XML-RPC, incluidos los pingbacks, y la cabecera X-Pingback. Jetpack y algunas aplicaciones antiguas necesitan XML-RPC."
+
+#: src/Tweaks/Performance/EmojiDisabler.php:31
+msgid "Stops loading the emoji script and styles on the frontend and keeps emojis as plain text in feeds."
+msgstr "Deja de cargar el script y los estilos de los emojis en el frontend y mantiene los emojis como texto en los feeds."
+
+#: src/Tweaks/Security/UserEnumerationBlocker.php:35
+msgid "Hides usernames from visitors who are not logged in: ?author=N returns a 404, the REST users endpoint requires login, the users sitemap is removed and the oEmbed author link points to the home page. Author archives are not affected."
+msgstr "Oculta los nombres de usuario a los visitantes sin sesión iniciada: ?author=N devuelve un 404, el endpoint REST de usuarios requiere iniciar sesión, se elimina el sitemap de usuarios y el enlace al autor de oEmbed apunta a la portada. Los archivos de autor no se ven afectados."
+
+#. Description of the plugin
+#: lcfdev-tweaks.php
+msgid "A lightweight plugin to disable WordPress features your site does not need, improving performance and hardening security through configurable settings."
+msgstr "Un plugin ligero para desactivar funciones de WordPress que tu sitio no necesita, mejorando el rendimiento y reforzando la seguridad mediante ajustes configurables."

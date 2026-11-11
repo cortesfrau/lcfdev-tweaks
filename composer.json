@@ -1,6 +1,6 @@
 {
-    "name": "cortesfrau/lcfdev-wp-tweaks",
-    "description": "Disables WordPress features the site does not need, such as emojis or Dashicons on the frontend for visitors who are not logged in.",
+    "name": "cortesfrau/lcfdev-tweaks",
+    "description": "A lightweight plugin to disable WordPress features your site does not need, improving performance and hardening security through configurable settings.",
     "type": "wordpress-plugin",
     "license": "GPL-2.0-or-later",
     "authors": [
@@ -9,17 +9,17 @@
             "homepage": "https://github.com/cortesfrau"
         }
     ],
-    "homepage": "https://github.com/cortesfrau/lcfdev-wp-tweaks",
+    "homepage": "https://github.com/cortesfrau/lcfdev-tweaks",
     "require": {
-        "php": ">=8.0"
+        "php": ">=8.1"
     },
     "autoload": {
         "psr-4": {
-            "LcfDev\\WpTweaks\\": "src/"
+            "LcfDev\\Tweaks\\": "src/"
         }
     },
     "config": {
-        "autoloader-suffix": "LcfDevWpTweaks",
+        "autoloader-suffix": "LcfDevTweaks",
         "sort-packages": true
     }
 }
