@@ -1,0 +1,14 @@
+name: Build and release plugin
+
+on:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    uses: cortesfrau/github-workflows/.github/workflows/wp-release.yml@v4
+    secrets: inherit

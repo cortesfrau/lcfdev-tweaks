@@ -1,0 +1,25 @@
+{
+    "name": "cortesfrau/lcfdev-wp-tweaks",
+    "description": "Disables WordPress features the site does not need, such as emojis or Dashicons on the frontend for visitors who are not logged in.",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Lluis Cortes",
+            "homepage": "https://github.com/cortesfrau"
+        }
+    ],
+    "homepage": "https://github.com/cortesfrau/lcfdev-wp-tweaks",
+    "require": {
+        "php": ">=8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "LcfDev\\WpTweaks\\": "src/"
+        }
+    },
+    "config": {
+        "autoloader-suffix": "LcfDevWpTweaks",
+        "sort-packages": true
+    }
+}

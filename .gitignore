@@ -1,0 +1,26 @@
+# Dependencies
+/vendor/
+/node_modules/
+
+# Build
+/dist/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Env
+.env
+.env.*
+
+# Tests / tooling
+.php-cs-fixer.cache
+.phpunit.result.cache
+.phpunit.cache/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
